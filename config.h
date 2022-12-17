@@ -1,35 +1,24 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
+// Example file: https://github.com/LukeSmithxyz/dwmblocks/blob/master/config.h
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	/* {"⌨", "sb-kbselect", 0, 30}, */
-	/* {"", "cat /tmp/recordingicon 2>/dev/null",	0,	9}, */
-	/* {"",	"sb-tasks",	10,	26}, */
-	/* {"",	"sb-music",	0,	11}, */
-	/* {"",	"sb-news",		0,	6}, */
-	/* {"",	"sb-price bat \"Basic Attention Token\" 🦁",	9000,	20}, */
-	/* {"",	"sb-price link \"Chainlink\" 🔗",			300,	25}, */
-	{"",	"sb-price xmr \"Monero\" 🔒",			9000,	24},
-	{"",	"sb-price lbc \"LBRY Token\" 📚",		9000,	22},
-	{"",	"sb-price eth Ethereum 🍸",				9000,	23},
-	{"",	"sb-price btc Bitcoin 💰",				9000,	21},
-	/* {"",	"sb-torrent",	20,	7}, */
-	/* {"",	"sb-memory",	10,	14}, */
-	/* {"",	"sb-cpu",		10,	18}, */
-	/* {"",	"sb-moonphase",	18000,	17}, */
-	{"",	"sb-doppler",	0,		13},
-	{"",	"sb-forecast",	18000,	5},
-	/* {"",	"sb-mailbox",	180,	12}, */
-	{"",	"sb-nettraf",	1,	16},
-	{"",	"sb-volume",	0,	10},
-	/* {"",	"sb-battery",	5,	3}, */
-	{"",	"sb-internet",	5,	4},
-	{"",	"sb-pacpackages",		0,	8},
-	{"",	"sb-clock",		60,	1},
-	/* {"",	"sb-help-icon",	0,	15}, */
+	{"",	"sb-price xmr \"Monero\" 🔒",			9000,	1},
+	{"",	"sb-price lbc \"LBRY Token\" 📚",		9000,	2},
+	{"",	"sb-price eth Ethereum 🍸",				9000,	3},
+	{"",	"sb-price btc Bitcoin 💰",				9000,	4},
+	{"",	"sb-doppler",							0,		5},
+	{"",	"sb-forecast",							18000,	6},
+	{"",	"sb-nettraf",							1,		7},
+	{"",	"sb-volume",							0,		8},
+	{"",	"sb-internet",							5,		9},
+	{"",	"sb-pacpackages",						9000,	10},
+	{"",	"sb-nightlight",						0,  	11},
+	{"",	"sb-clock",								60,		12},
 };
 
+
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
-static char *delim = " ";
+static char *delim = "  ";
 
 // Have dwmblocks automatically recompile and run when you edit this file in
 // vim with the following line in your vimrc/init.vim:
