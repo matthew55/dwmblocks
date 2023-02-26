@@ -14,6 +14,7 @@ static const Block blocks[] = {
 	{"",	"sb-pacpackages",						9000,	10},
 	{"",	"sb-nightlight",						0,  	11},
 	{"",	"sb-clock",								60,		12},
+	{"",	"sb-bookmarks",							0,		13},
 };
 
 
