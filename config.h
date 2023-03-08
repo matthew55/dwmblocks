@@ -12,9 +12,10 @@ static const Block blocks[] = {
 	{"",	"sb-volume",							0,		8},
 	{"",	"sb-internet",							5,		9},
 	{"",	"sb-pacpackages",						9000,	10},
-	{"",	"sb-nightlight",						0,  	11},
-	{"",	"sb-clock",								60,		12},
-	{"",	"sb-bookmarks",							0,		13},
+	{"",	"sb-mailbox",							180,	11},
+	{"",	"sb-nightlight",						0,  	12},
+	{"",	"sb-clock",								60,		13},
+	{"",	"sb-bookmarks",							0,		14},
 };
 
 
