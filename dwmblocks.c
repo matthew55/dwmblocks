@@ -172,12 +172,16 @@ int getstatus(char *str, char *last)
 {
 	strcpy(last, str);
 	str[0] = '\0';
-    for(int i = 0; i < LENGTH(blocks); i++) {
+	if (leftpad[0] != '\0')
+		strcat(str, leftpad);
+	for(int i = 0; i < LENGTH(blocks); i++) {
 		strcat(str, statusbar[i]);
-        if (i == LENGTH(blocks) - 1)
-            strcat(str, " ");
-    }
+		if (i == LENGTH(blocks) - 1)
+			strcat(str, " ");
+	}
 	str[strlen(str)-1] = '\0';
+	if (rightpad[0] != '\0')
+		strcat(str, rightpad);
 	return strcmp(str, last);//0 if they are the same
 }
 

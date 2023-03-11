@@ -22,6 +22,10 @@ static const Block blocks[] = {
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
 static char *delim = "  ";
 
+// Sets delimiters around the full statusbar. NULL character ('\0') means no delimeter.
+static char leftpad[]  = " ";
+static char rightpad[] = " ";
+
 // Have dwmblocks automatically recompile and run when you edit this file in
 // vim with the following line in your vimrc/init.vim:
 
