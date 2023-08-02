@@ -2,13 +2,10 @@
 // Example file: https://github.com/LukeSmithxyz/dwmblocks/blob/master/config.h
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"",	"sb-price xmr \"Monero\" 🔒",			9000,	1},
-	{"",	"sb-price lbc \"LBRY Token\" 📚",		9000,	2},
-	{"",	"sb-price eth Ethereum 🍸",				9000,	3},
-	{"",	"sb-price btc Bitcoin 💰",				9000,	4},
 	{"",	"sb-doppler",							0,		5},
 	{"",	"sb-forecast",							18000,	6},
-	{"",	"sb-nettraf",							1,		7},
+	{"",	"sb-battery",							60,		7},
+	{"",	"sb-disk",								60,		15},
 	{"",	"sb-volume",							0,		8},
 	{"",	"sb-internet",							5,		9},
 	{"",	"sb-pacpackages",						9000,	10},
